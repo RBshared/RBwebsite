@@ -1,80 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Streamer Homepage</title>
-
-    <style>
-        body {
-            background: radial-gradient(circle, #111, #000);
-            color: #00ffff;
-            font-family: Verdana;
-            margin: 0;
-        }
-
-        .wrapper {
-            width: 900px;
-            margin: 40px auto;
-            border: 2px solid #00ffff;
-            box-shadow: 0 0 20px #00ffff;
-            background: #050505;
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-            font-size: 42px;
-            text-shadow: 0 0 10px purple;
-        }
-
-        .container {
-            display: flex;
-        }
-
-        .sidebar {
-            width: 200px;
-            border-right: 1px solid #00ffff;
-            padding: 10px;
-        }
-
-        .sidebar a {
-            display: block;
-            margin: 12px 0;
-            color: #00ffff;
-            text-decoration: none;
-        }
-
-        .sidebar a:hover {
-            color: yellow;
-        }
-
-        .content {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamer's Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<div class="wrapper">
-    <header>Danny's Homepage</header>
-
     <div class="container">
-        <div class="sidebar">
-            <a href="index.html">Home</a>
-            <a href="blog.html">Blog</a>
-            <a href="chat.html">Chatroom</a>
-            <a href="videos.html">Videos</a>
-            <a href="game.html">Game</a>
-        </div>
+        <!-- Left Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>Home</h3>
+                <p class="subtitle">Main Page</p>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Blog</h3>
+                <p class="subtitle">Latest Posts</p>
+                <a href="blog.html">View Blog →</a>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Chat</h3>
+                <p class="subtitle">Web Room</p>
+                <a href="chatroom.html">Enter Chat →</a>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Links</h3>
+                <p class="subtitle">Wanna be on this?</p>
+                <a href="#">Submit Link →</a>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Survey</h3>
+                <p class="subtitle">Fill it out</p>
+                <a href="#">Take Survey →</a>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Sign My Guestbook</h3>
+                <p class="subtitle">plz plz plz</p>
+                <a href="#">Sign Here →</a>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Cool Stuff</h3>
+                <p class="subtitle">Check out my fav and pick</p>
+                <a href="#">Cool Things →</a>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Support</h3>
+                <p class="subtitle">Interested Page</p>
+                <a href="#">Learn More →</a>
+            </div>
+        </aside>
 
-        <div class="content">
-            <marquee>🔥 Welcome to my retro streamer website 🔥</marquee>
-            <p>This is the official page. Expect chaos.</p>
-        </div>
+        <!-- Main Content -->
+        <main class="content">
+            <header class="header">
+                <h1 class="title">Streamer's Homepage</h1>
+                <h2 class="subtitle-main">STREAMER'S HOMEPAGE!</h2>
+            </header>
+
+            <section class="welcome">
+                <p>Hello Web Surfer and Welcome To my Homepage, As you already know My Name is <strong>Streamer</strong> and I am <strong>16 years old</strong>. From Firmons California to my page on the World Wide Web. I am interested in <strong>Streaming</strong> and soon you will see it on my guestbook, as I will do the same for you. Through your Travels you will find this page to be very useful as well as entertaining. I can help you with html and Java, If you have any Questions, I have a message Board. HAVE FUN!</p>
+            </section>
+
+            <section class="featured">
+                <h3>Pic of me in the one driving</h3>
+                <p class="pic-code">411 on some of my pages</p>
+            </section>
+
+            <section class="info">
+                <p>My bmx page tells you how to get into Bmx, Freestyle, Stunt and lots more.</p>
+            </section>
+
+            <footer class="footer">
+                <p>&copy; 1999 - 2026 Streamer's Homepage. All Rights Reserved.</p>
+            </footer>
+        </main>
     </div>
-</div>
-
 </body>
 </html>
