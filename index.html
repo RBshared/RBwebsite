@@ -1,28 +1,52 @@
-<!-- ================= index.html ================= -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Streamer Homepage</title>
+
+    <style>
+        body {
+            background: radial-gradient(circle, #111, #000);
+            color: #00ffff;
+            font-family: Verdana;
+            margin: 0;
         }
+
+        .wrapper {
+            width: 900px;
+            margin: 40px auto;
+            border: 2px solid #00ffff;
+            box-shadow: 0 0 20px #00ffff;
+            background: #050505;
+        }
+
         header {
             text-align: center;
             padding: 20px;
             font-size: 42px;
             text-shadow: 0 0 10px purple;
         }
+
         .container {
             display: flex;
         }
+
         .sidebar {
             width: 200px;
             border-right: 1px solid #00ffff;
             padding: 10px;
         }
+
         .sidebar a {
             display: block;
             margin: 12px 0;
             color: #00ffff;
             text-decoration: none;
         }
+
         .sidebar a:hover {
             color: yellow;
         }
+
         .content {
             flex: 1;
             padding: 20px;
@@ -30,6 +54,7 @@
         }
     </style>
 </head>
+
 <body>
 
 <div class="wrapper">
