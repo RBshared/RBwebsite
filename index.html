@@ -1,26 +1,23 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Danny's Homepage</title>
-    <style>
-        body {
-            background-color: black;
-            color: cyan;
-            font-family: Arial, sans-serif;
+<!-- ================= index.html ================= -->
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            font-size: 42px;
+            text-shadow: 0 0 10px purple;
         }
         .container {
             display: flex;
         }
         .sidebar {
             width: 200px;
-            background: #111;
+            border-right: 1px solid #00ffff;
             padding: 10px;
         }
         .sidebar a {
             display: block;
-            color: cyan;
-            margin: 10px 0;
+            margin: 12px 0;
+            color: #00ffff;
             text-decoration: none;
         }
         .sidebar a:hover {
@@ -31,27 +28,26 @@
             padding: 20px;
             text-align: center;
         }
-        h1 {
-            font-size: 40px;
-            text-shadow: 0 0 10px purple;
-        }
     </style>
 </head>
 <body>
 
-<h1>Danny's Homepage</h1>
+<div class="wrapper">
+    <header>Danny's Homepage</header>
 
-<div class="container">
-    <div class="sidebar">
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="chat.html">Chatroom</a>
-        <a href="videos.html">Videos</a>
-        <a href="game.html">Game</a>
-    </div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="chat.html">Chatroom</a>
+            <a href="videos.html">Videos</a>
+            <a href="game.html">Game</a>
+        </div>
 
-    <div class="content">
-        <p>Welcome to my homepage!</p>
+        <div class="content">
+            <marquee>🔥 Welcome to my retro streamer website 🔥</marquee>
+            <p>This is the official page. Expect chaos.</p>
+        </div>
     </div>
 </div>
 
